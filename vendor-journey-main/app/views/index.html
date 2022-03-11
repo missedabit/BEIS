@@ -1,0 +1,187 @@
+{% extends "layout_vendor_account_management.html" %}
+
+{% block pageTitle %}
+  Help to Grow - Vendor Journey Protoype
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <h1 class="govuk-heading-l">
+        Vendor Journey Prototypes
+        <span class="govuk-caption-xl">{{releaseVersion}}</span>
+      </h1>{{releaseVersion | log }}
+      <p  class="govuk-body">Click on the links below to navigate to the prototype pages</p>
+
+      <h2 class="govuk-heading-m">Vendor Account Management Console</h2>
+
+      <h3 class="govuk-heading-s">Activate Account</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="vendor-account-management/activate-account/company-details" class="govuk-link">Check Company Details</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/activate-account/terms-and-conditions" class="govuk-link">Ts&Cs and Privacy Consent</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/activate-account/create-account" class="govuk-link">Create Account</a>
+        </li>
+      </ul>
+
+
+      <h3 class="govuk-heading-s">Login</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="vendor-account-management/login/landing-page" class="govuk-link">Landing page</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/login/sign-in" class="govuk-link">Sign in</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/login/forgot-password" class="govuk-link">Forgot password</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/login/set-password" class="govuk-link">Set new password</a>
+        </li>
+      </ul>
+
+      <h3 class="govuk-heading-s">Account Home</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="vendor-account-management/account-home/account-home" class="govuk-link">My Account</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/account-home/ip-ranges" class="govuk-link">IP Ranges</a>
+        </li>
+      </ul>
+
+      <h3 class="govuk-heading-s">Software Details</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="vendor-account-management/product-details/product-home" class="govuk-link">Software home</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/product-details/redemption-url" class="govuk-link">Redemption URL</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/product-details/sku-id" class="govuk-link">SKU ID</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/product-details/product-logo" class="govuk-link">Product logo</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/product-details/product-summary" class="govuk-link">Product summary</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/product-details/product-capabilities" class="govuk-link">Product capabilities</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/product-details/product-support" class="govuk-link">Product support details</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/product-details/product-deployment" class="govuk-link">Deployment platform, compatibility and reviews</a>
+        </li>
+      </ul>
+
+      <h3 class="govuk-heading-s">Software Details (Post MVP)</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="vendor-account-management/product-details/product-pricing" class="govuk-link">Product pricing details</a>
+        </li>
+
+      </ul>
+
+      <h3 class="govuk-heading-s">Submit Changes</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="vendor-account-management/submit/review-details" class="govuk-link">Your product changes</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/submit/confirmation" class="govuk-link">Confirmation</a>
+        </li>
+      </ul>
+
+      <h3 class="govuk-heading-s">Manage users</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="vendor-account-management/manage-users/more-users" class="govuk-link">More users?</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/manage-users/manage-users" class="govuk-link">Manage users home</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/manage-users/add-user" class="govuk-link">Add user</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/manage-users/edit-user" class="govuk-link">Edit user</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/manage-users/confirm-remove-user" class="govuk-link">Confirm remove user</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/manage-users/confirm-primary-user-change" class="govuk-link">Confirm primary user change</a>
+        </li>
+      </ul>
+
+      <h3 class="govuk-heading-s">Static content</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="vendor-account-management/static-content/privacy-notice" class="govuk-link">Privacy notice</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/static-content/terms-of-use" class="govuk-link">Terms of use</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/static-content/cookies" class="govuk-link">Cookies notice</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/static-content/accessibility-statement" class="govuk-link">Accessibility statement</a>
+        </li>
+        <li>
+          <a href="vendor-account-management/static-content/help-and-guidance/vendor-portal-activation" class="govuk-link">Help and guidance</a>
+        </li>
+      </ul>
+
+      <h2 class="govuk-heading-m">IDS Team Management Console</h2>
+
+      <h3 class="govuk-heading-s">Account home</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="ids-management-console/account-home/account-home" class="govuk-link">Home</a>
+        </li>
+      </ul>
+
+      <h3 class="govuk-heading-s">Selected vendor</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="ids-management-console/selected-vendor/company-details" class="govuk-link">Selected vendor - Company Details</a>
+        </li>
+        <li>
+          <a href="ids-management-console/selected-vendor/products" class="govuk-link">Selected vendor - Products</a>
+        </li>
+        <li>
+          <a href="ids-management-console/selected-vendor/selected-product" class="govuk-link">Selected vendor - Selected Products</a>
+        </li>
+      </ul>
+
+      <h3 class="govuk-heading-s">Manage users</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="ids-management-console/manage-users/manage-users" class="govuk-link">Manage users home</a>
+        </li>
+        <li>
+          <a href="ids-management-console/manage-users/edit-user" class="govuk-link">Edit user</a>
+        </li>
+        <li>
+          <a href="ids-management-console/manage-users/add-user" class="govuk-link">Add user</a>
+        </li>
+        <li>
+          <a href="ids-management-console/manage-users/confirm-remove-user" class="govuk-link">Confirm remove user</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+{% endblock %}

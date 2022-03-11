@@ -1,0 +1,253 @@
+{% extends "layout_vendor_account_management.html" %}
+
+{% block pageTitle %}
+  Selected Vendor - Company Details
+{% endblock %}
+
+{% block beforeContent %}
+  <img src="/public/images/HTG_logo_960x188.svg" alt="Help to Grow Logo" class="beis-htg-logo">
+ 
+  <a class="govuk-link beis-sign-out-link">Sign off</a>
+  <a href="../manage-users/manage-users" class="govuk-link beis-sign-out-link govuk-!-margin-right-2">Manage IDS users</a>
+  <a href="../account-home/account-home" class="govuk-link beis-sign-out-link govuk-!-margin-right-2">Vendor list</a>
+  <br>
+  <a class="govuk-back-link" href="../account-home/account-home">Back</a>
+{% endblock %}
+
+
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+
+    
+
+    <h1 class="govuk-heading-l govuk-!-margin-bottom-5">Account Tech co: 876686 
+      <span class="govuk-caption-l">Ace Account Pro Basic - Update product details</span>
+    </h1>
+
+    <p><a href="products" class="govuk-link">Help to Grow: Digital products</a></p>
+  </div>
+</div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="name">
+          Product name
+        </label>
+        <input class="govuk-input govuk-input--width-20" id="name" name="name" type="text" value="Ace Account Pro Basic">
+        </div>
+
+
+
+
+        <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="5000">
+          <div class="govuk-form-group">
+            <label class="govuk-label" for="summary">
+              Product summary
+              </label>
+            <textarea class="govuk-textarea govuk-js-character-count" id="summary" name="summary" rows="5" aria-describedby="summary-info summary-hint"></textarea>
+          </div>
+
+          <div id="summary-info" class="govuk-character-count__message" aria-live="polite">
+            You can enter up to 5000 characters
+          </div>
+
+        </div>
+
+
+
+        <div class="govuk-form-group">
+            <label class="govuk-label" for="file-upload-1">
+            Product logo
+            </label>
+            <input class="govuk-file-upload" id="file-upload-1" name="file-upload-1" type="file">
+        </div>
+
+
+
+
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="url">
+          Redemption URL:
+        </label>
+        <input class="govuk-input govuk-input--width-20" id="url" name="url" type="text" value="redemption-address.co.uk"></div>
+
+
+
+
+        <div class="govuk-form-group">
+            <fieldset class="govuk-fieldset">
+              <legend class="govuk-fieldset__legend govuk-fieldset__legend">
+                    Product capabilities:
+              </legend>
+              <div class="govuk-checkboxes" data-module="govuk-checkboxes">
+                <div class="govuk-checkboxes__item">
+                  <input class="govuk-checkboxes__input" id="item" name="item" type="checkbox" value="">
+                  <label class="govuk-label govuk-checkboxes__label" for="item">
+                    Financial Reporting and Analysis
+                  </label>
+                </div>
+                <div class="govuk-checkboxes__item">
+                  <input class="govuk-checkboxes__input" id="item-2" name="item" type="checkbox" value="">
+                  <label class="govuk-label govuk-checkboxes__label" for="item-2">
+                    Revenue Management
+                  </label>
+                </div>
+                <div class="govuk-checkboxes__item">
+                  <input class="govuk-checkboxes__input" id="item-3" name="item" type="checkbox" value="">
+                  <label class="govuk-label govuk-checkboxes__label" for="item-3">
+                    Contract Accounting
+                  </label>
+                </div>
+                <div class="govuk-checkboxes__item">
+                    <input class="govuk-checkboxes__input" id="item-4" name="item" type="checkbox" value="">
+                    <label class="govuk-label govuk-checkboxes__label" for="item-4">
+                        Revenue Recognition
+                    </label>
+                  </div>
+                  <div class="govuk-checkboxes__item">
+                    <input class="govuk-checkboxes__input" id="item-5" name="item" type="checkbox" value="">
+                    <label class="govuk-label govuk-checkboxes__label" for="item-5">
+                        Product capabilities another
+                    </label>
+                  </div>
+                  <div class="govuk-checkboxes__item">
+                    <input class="govuk-checkboxes__input" id="item-6" name="item" type="checkbox" value="">
+                    <label class="govuk-label govuk-checkboxes__label" for="item-6">
+                        Product capabilities another
+                    </label>
+                  </div>
+                  <div class="govuk-checkboxes__item">
+                    <input class="govuk-checkboxes__input" id="item-7" name="item" type="checkbox" value="">
+                    <label class="govuk-label govuk-checkboxes__label" for="item-7">
+                        Product capabilities another
+                    </label>
+                  </div>
+              </div>
+          
+            </fieldset>
+          </div>
+
+
+
+
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="id">
+         Product ID:
+        </label>
+        <input class="govuk-input govuk-input--width-20" id="id" name="id" type="text" value="1"></div>
+
+
+
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="vendorprofile">
+          Vendor ID:
+        </label>
+        <input class="govuk-input govuk-input--width-20" id="vendorprofile" name="vendorprofile" type="text" value="88678">
+      </div>
+
+
+    
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="sku">
+          Product SKU:
+        </label>
+        <input class="govuk-input govuk-input--width-20" id="sku" name="sku" type="text" value="SKU123">
+      </div>
+
+
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="type">
+         Product type:
+        </label>
+        <select class="govuk-select" id="type" name="type">
+          <option value="checked" selected>Accountancy</option>
+          <option value="reviewed">Product type another</option>
+          <option value="status1">Product type another</option>
+          <option value="status2">Product type another</option>
+        </select>
+      </div>
+
+      
+
+        <div class="govuk-form-group">
+            <label class="govuk-label" for="sort">
+             Status:
+            </label>
+            <select class="govuk-select" id="sort" name="sort">
+              <option value="checked" selected>New</option>
+              <option value="reviewed">Reviewed</option>
+              <option value="status1">Status1</option>
+              <option value="status2">Status2</option>
+            </select>
+          </div>
+
+
+
+          <button class="govuk-button govuk-!-margin-bottom-3" popup-open="popup-1" href="javascript:void(0)" data-module="govuk-button">
+            Save product updates
+          </button>
+        <p><a class="govuk-link" href="selected-product-status">Cancel and return to product details</a></p>
+
+
+        <div class="popup" popup-name="popup-1">
+          <div class="popup-content">
+          <h2>Product details : Account Tech co: 876686</h2>
+          <p>Product details have been updated.</p><br><br>
+          <button class="return govuk-button govuk-!-margin-bottom-3 govuk-!-margin-right-9" data-module="govuk-button">
+            Return to product details
+          </button>
+          <br>
+          <a class="close govuk-body govuk-link" href="">Close</a>
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+
+
+
+  <style>
+    body { font-family:Arial, Helvetica, sans-serif; }
+    .popup { position:fixed; top:0px; left:0px; background:rgba(0,0,0,0.75); width:100%; height:100%; display:none; }
+    .popup-content { width: 700px; margin: 0 auto; box-sizing: border-box; padding: 40px; margin-top: 100px; box-shadow: 0px 2px 6px rgba(0,0,0,1); border-radius: 3px; background: #fff; position: relative; }
+    
+    @media screen and (max-width: 720px) {
+    .popup-content { width:90%; }	
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"  crossorigin="anonymous"></script>
+
+  <script>
+    $(function() {
+        // Open Popup
+        $('[popup-open]').on('click', function() {
+            var popup_name = $(this).attr('popup-open');
+      $('[popup-name="' + popup_name + '"]').fadeIn(300);
+        });
+    
+        // Close Popup
+        $('[popup-close]').on('click', function() {
+      var popup_name = $(this).attr('popup-close');
+      $('[popup-name="' + popup_name + '"]').fadeOut(300);
+        });
+
+        $('.return').click(function (e) {
+          location.href = 'selected-product-status';
+
+      });
+
+      $('.close').click(function (e) {
+          location.href = 'company-details-edit';
+      });
+      
+    });
+    </script>
+{% endblock %}
